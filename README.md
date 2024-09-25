@@ -1,33 +1,63 @@
-# Task List
+# Serve Together Project
 
-You may do these tasks in any order, but take note that they are listed in the order your team has prioritized completing them.
+Serve Together is a platform designed to streamline the process of organizing neighborhood cleanup events by efficiently assigning tasks to volunteers and sending reminders.
 
-Reminder that you are NOT expected to complete all tasks. You are expected to write clean, readable code. Remember to add comments explaining what you were working on if you run out of time in the middle of a task.
+**Note**: For future potential enhancements, please read the [Future](./Future.md) file.
 
+## Table of Contents
 
-## Task 1
+- [Objective](#objective)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Task List](#task-list)
+- [Contributing](#contributing)
 
-Implement logic that evaluates the quality of the task assignments. After the assignments are made, the program should calculate a single overall satisfaction score and then print the score.
+## Objective
 
-The overall satisfaction score should be computed as follows:
+The primary goal of Serve Together is to ensure tasks are completed quickly and efficiently while keeping volunteers satisfied with their assignments. This encourages continued participation in future events.
 
-For each task assigned to a volunteer, give it a score: 4 points for a top-preferred task, 3 points for a second-choice task, 2 points for a third-choice task, and 1 point for any other task the volunteer is interested in. If a volunteer is assigned to a task that they are not interested in, the score is -1.
+## Features
 
-The overall satisfaction score is the sum of all individual task scores.
+- **Event Management:** Organizers can create events with specific tasks and deadlines.
+- **Volunteer Preferences:** Volunteers can select tasks they are interested in and rank their preferences.
+- **Task Assignment:** Tasks are assigned based on volunteer preferences and availability.
+- **Multi-Person Tasks:** Support for tasks that require multiple volunteers.
+- **Satisfaction Scoring:** Evaluation of task assignments based on volunteer satisfaction.
 
+## Getting Started
 
-## Task 2
+### Prerequisites
 
-Implement support for multi-person tasks. Some tasks are sophisticated and require more than one person to complete. For these tasks, ensure that they are assigned to multiple people.
+- Node.js and npm installed on your machine.
 
+### Testing
 
-## Task 3
+- Run `npm test`
 
-Some volunteers have expressed dissatisfaction with the tasks they've been assigned. Suggest and implement changes to the algorithm for assigning tasks to volunteers so that the assignment yields a better assignment of tasks.
+### Running
 
-What counts as "better" is up to you. You might consider one or more of the following criteria: a higher overall volunteer satisfaction score, a more even distribution of tasks, ensuring that all volunteers get to participate, or other criteria of your choosing.
+- Run `npm start`
 
-Note that we are not looking for a perfect solution; our clients would prefer one or two completed minor improvements to the current algorithm over an "optimal" solution that is buggy or incomplete.
+## Task List
 
-You are welcome to add any helper methods, implement any algorithm and/or use any underlying data structures you like, but you are encouraged to make sure your decisions are well documented and your code is appropriately decomposed.
+### Task 1: Evaluate Task Assignments
 
+- Implement logic to calculate an overall satisfaction score based on volunteer preferences.
+
+### Task 2: Support Multi-Person Tasks
+
+- Modify the system to handle tasks that require multiple volunteers.
+
+### Task 3: Improve Task Assignment Algorithm
+
+- Enhance the algorithm to prioritize volunteer preferences and ensure even task distribution.
+
+## Contributing
+
+We welcome contributions to improve Serve Together. Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes with clear messages.
+4. Push your changes to your fork.
+5. Submit a pull request with a description of your changes.

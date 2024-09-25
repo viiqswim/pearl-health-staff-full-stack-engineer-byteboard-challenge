@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
+    "test": "ts-node tests/assignmentServer.test.ts",
     "zip": "node zip.js"
   },
   "author": "Byteboard",
